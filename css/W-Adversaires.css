@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* ++++++++++ header +++++++++++ */
+header{
+    background-color: #F1C530;
+    display: flex;
+    padding: 1% 5%;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo2{
+    padding: 6%;
+    width: 100%;
+}
+
+header .menu ul{
+    display: flex;
+    list-style-type: none;
+}
+header .menu ul li{
+    width: 120px;
+}
+
+header .menu ul a{
+    text-decoration: none;
+    margin: 0 20%;
+    color: white;
+}
+
+/* ++++++++++ main +++++++++++ */
+/* ------------ 1er section ------------------ */
+.sect1{
+    background-image: url(../Assets/Illustration/img7.png);
+    padding: 18%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+/* ------------ 2em section ------------------ */
+.sect2{
+    background-color: #F1C530;
+   padding: 1%;
+    display: block;
+    margin: 0;
+}
+.sect2 div.row.ligne1{
+    justify-content:center;
+    margin: 4% 0;
+}
+div.col1, div.col2, div.col3{
+    margin: 0 1%;
+}
+
+div.border-top-0{
+    border-style: solid;
+    border-width: 10px;
+    width: 100%;
+    border-radius: 5px;
+    margin: -36px 0;
+    padding-top: 21%;
+    border-radius: 41px;
+}
+/* ------------ 3em section ------------------ */
+/* ------------ 4em section ------------------ */
+
+/* ++++++++++ footer +++++++++++ */
+
+footer{
+    background-color: black;
+    padding: 1%;
+}
+
+
+
+
+
+
+footer ul.row{
+    text-align: center;
+}
+
+li.col{
+    list-style-type:none ;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+select{
+    padding: 0 5px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #F1C530;
+    text-align: left;
+}
+
+footer div.ftrbottom img{
+    background-color: #F1C530;
+    width:50%;
+    border-radius: 100%;
+}

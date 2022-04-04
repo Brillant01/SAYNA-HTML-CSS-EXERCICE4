@@ -1,0 +1,280 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*++++++++++++++++++++++ header +++++++++++++++++++++*/
+
+header{
+    background-color: #114C92 ;
+    padding: 0.8%;
+}
+
+header.row div.col-6.row{
+    justify-content: center;
+}
+
+header.row div.row  div.center img{
+    margin: 35%;
+}
+
+header div.col{
+    padding: 0;
+}
+
+header div.col ul.row{
+    list-style-type: none;
+    
+    
+}
+
+header div.col ul.row a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10.5%;
+
+}
+/*++++++++++++++++++++++ main +++++++++++++++++++++*/
+/*------------- 1r section ---------*/
+#sect1 {
+        background-image: url(/Assets/Illustration/img19.png);
+        padding: 14%;
+        color: white;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+    }
+
+
+
+/*------------- 2m section ---------*/
+#sect2{
+    background-color: #114C92;
+    color: white;
+    padding: 7%;
+
+}
+
+#sect2 .contenu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+#sect2 .text {
+    width: 25%;
+    text-align: justify;
+    padding: 2%;
+}
+
+
+/*------------- 3m section ---------*/
+#sect3 {
+    background-image: url(/Assets/Illustration/img20.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 13%;
+    color: white;
+}
+
+
+/*------------- 4m section ---------*/
+#sect4{
+    background-color: #114C92;
+    color: white;
+    padding: 5% 10%;
+}
+
+#sect4 .text {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0 auto;
+}
+
+#sect4 .col1 {
+    width: 34%;
+    text-align: justify;
+    padding: 2%;
+}
+
+#sect4 .fig-text{
+    display: flex;
+    justify-content: center;
+}
+
+#sect4 .fig-text .figure{
+    
+}
+#sect4 .fig-text .figure .img2{
+    margin-top: -15%;
+    margin-left: 30%;
+}
+
+#sect4 .meilleuram{
+    text-align: justify ;
+    width: 32%;
+    justify-content: center;
+}
+
+#sect4 .gwen-stacy{
+    text-align: justify ;
+    width: 35%;
+}
+
+#sect4 .text-fig {
+    display: flex;
+    justify-content: center;
+}
+
+#sect4 .text-fig div{
+    margin: 2%;
+}
+
+#sect4 .text-fig .img{
+    display: block;
+}
+
+#sect4 .text-fig .img1{
+    display: flex;
+    width: 120%;
+    justify-content: space-between;
+
+}
+
+#sect4 .text-fig .img2{
+    text-align: center;
+    width: 100%;
+}
+
+/*------------- 5m section ---------*/
+#sect5{
+    background-color: #B11313;
+    color: white;
+    display: flex;
+}
+
+#sect5 div.colonne1{
+   
+    width: 50%;
+}
+
+#sect5 .figblock-text{
+    display: flex;
+    width: 80%;
+}
+
+#sect5 .figblock{
+    display: block;
+    width: 32%;
+}
+#sect5 .figblock img{
+    margin: 4%;
+}
+
+#sect5 .text {
+    width: 25%;
+    text-align: justify;
+    padding: 2%;
+}
+
+#sect5 .fig4 img{
+    width: 20%;
+    padding: 2%;
+}
+
+#sect5 .colonne2{
+    width: 10;
+}
+
+
+/*------------- 6m section ---------*/
+#sect6{
+    background-image: url(/Assets/Illustration/img33.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#sect6 div{
+    background-color: #114C92;
+    width: 20%;
+    padding: 2%;
+    margin-left: 65%;
+}
+
+
+#sect6 div p{
+    text-align: justify;
+}
+
+
+
+footer{
+    background-color: black;
+    padding: 0;
+   
+}
+
+footer .ligne1 {
+   padding:  3%;
+    
+}
+
+footer div.col-1{
+    padding: 0;
+}
+
+.colleft, .colright{
+    padding-top: 1.5%;
+}
+
+footer div.col-1 img.center{
+    width: 50%;
+    margin: 25%;
+}
+
+footer div.row.col {
+    justify-content: center;
+    width: 15%;
+    margin: 0% -3% 0% -15%;
+   
+}
+
+footer.row li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+
+select{
+    background-color: #b11313;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 1%;
+}
+option{
+    background-color: black;
+}
+
+
+
+div.lign2 .fig {
+    width: 226px;
+    margin: 1% auto;
+    justify-content: space-around;
+}
+
+div.lign2 .fig img{
+    padding: 40%;
+}
+
+div.lign2 .text{
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}

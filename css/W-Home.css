@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* +++++++++++++header+++++++++++++++++++ */
+header{
+    background-color: #b11313 ;
+    padding: 0.8%;
+}
+
+header.row div.col-6.row{
+    justify-content: center;
+}
+
+header.row div.row  div.center img{
+    margin: 35%;
+}
+
+header div.col{
+    padding: 0;
+}
+
+header div.col ul.row{
+    list-style-type: none;
+}
+
+header div.col ul.row a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10.5%;
+}
+
+/* -----------------------Main------------------ */
+/*--------------------- 1er section --------------------*/
+ section.sct1{
+    background-image: url(/Assets/Illustration/img1.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div.contenu{
+    padding: 19% 0% 15% 14%;
+}
+
+/*--------------------- 2em section --------------------*/
+.sect2{
+    background-color: #8f0f0f;
+    padding: 5%;
+    color: white;
+}
+
+.sect2 div.row{
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sect2 div.col-3{
+    padding: 0;
+    text-align: center;
+    
+}
+
+.sect2 p {
+    margin-top: 10%;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+button{
+    margin: 5%;
+    padding: 3%;
+    border: none;
+    border-radius: 15px;
+    color: #b11313;
+}
+
+/*--------------------- 3em section --------------------*/
+.sect3{
+    background-color: #114c92;
+    color: white;
+    justify-content: space-between;
+}
+
+input.row{
+    border: none;
+    border-radius: 15px;
+}
+
+
+
+button.row.btn{
+    border-color: white;
+}
+
+/*--------------------- 4em section --------------------*/
+.sect4{
+    background-color: #ad1313;
+    color: white;
+}
+
+.coltext {
+    padding: 5% 7%;
+}
+/* +++++++++++++++ footer ++++++++++++++++++ */
+footer{
+    background-color: black;
+    padding: 0;
+   
+}
+
+footer .ligne1 {
+   padding:  3%;
+    
+}
+
+footer div.col-1{
+    padding: 0;
+}
+
+.colleft, .colright{
+    padding-top: 1.5%;
+}
+
+footer div.col-1 img.center{
+    width: 50%;
+    margin: 25%;
+}
+
+footer div.row.col {
+    justify-content: center;
+    width: 15%;
+    margin: 0% -3% 0% -15%;
+   
+}
+
+footer.row li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+
+select{
+    background-color: #b11313;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 1%;
+}
+option{
+    background-color: black;
+}
+
+
+
+div.lign2 .fig {
+    width: 226px;
+    margin: 1% auto;
+    justify-content: space-around;
+}
+
+div.lign2 .fig img{
+    padding: 40%;
+}
+
+div.lign2 .text{
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
