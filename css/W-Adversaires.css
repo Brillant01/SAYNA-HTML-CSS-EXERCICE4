@@ -3,36 +3,35 @@ body{
     padding: 0;
 }
 
-/* ++++++++++ header +++++++++++ */
+/* +++++++++++++header+++++++++++++++++++ */
 header{
-    background-color: #F1C530;
-    display: flex;
-    padding: 1% 5%;
-    justify-content: space-between;
+    background-color: #b11313 ;
+    padding: 0.8%;
 }
 
-.logo{
-    display: flex;
-    flex-direction: row;
+header.row div.col-6.row{
+    justify-content: center;
 }
 
-.logo2{
-    padding: 6%;
-    width: 100%;
+header.row div.row  div.center img{
+    margin: 35%;
 }
 
-header .menu ul{
-    display: flex;
+header div.col{
+    padding: 0;
+}
+
+header div.col ul.row{
     list-style-type: none;
-}
-header .menu ul li{
-    width: 120px;
+    
+    
 }
 
-header .menu ul a{
+header div.col ul.row a{
     text-decoration: none;
-    margin: 0 20%;
     color: white;
+    margin-top: 10.5%;
+
 }
 
 /* ++++++++++ main +++++++++++ */
@@ -71,41 +70,77 @@ div.border-top-0{
 /* ------------ 3em section ------------------ */
 /* ------------ 4em section ------------------ */
 
-/* ++++++++++ footer +++++++++++ */
 
+
+/* +++++++++++++++ footer ++++++++++++++++++ */
 footer{
     background-color: black;
-    padding: 1%;
+    padding: 0;
+   
 }
 
-
-
-
-
-
-footer ul.row{
-    text-align: center;
+footer .ligne1 {
+   padding:  3%;
+    
 }
 
-li.col{
-    list-style-type:none ;
+footer div.col-1{
+    padding: 0;
 }
 
-li a{
+.colleft, .colright{
+    padding-top: 1.5%;
+}
+
+footer div.col-1 img.center{
+    width: 50%;
+    margin: 25%;
+}
+
+footer div.row.col {
+    justify-content: center;
+    width: 15%;
+    margin: 0% -3% 0% -15%;
+   
+}
+
+footer.row li a{
     text-decoration: none;
     color: white;
+    text-align: center;
+    
 }
 
 select{
-    padding: 0 5px;
-    width: 100%;
-    border-radius: 15px;
     background-color: #F1C530;
-    text-align: left;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 1%;
+}
+option{
+    background-color: black;
 }
 
-footer div.ftrbottom img{
-    background-color: #F1C530;
-    width:50%;
-    border-radius: 100%;
+
+
+div.lign2 .fig {
+    width: 226px;
+    margin: 1% auto;
+    justify-content: space-around;
+}
+
+div.lign2 .fig img{
+    padding: 40%;
+}
+
+div.lign2 .text{
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+footer.row .lign2 div.row.fig div.col-1 img{
+    background-color:#F1C530;
+    border-radius:100%;
 }

@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*++++++++++++++++++++++ header +++++++++++++++++++++*/
+
+header{
+    background-color: #b11313 ;
+    padding: 0.8%;
+}
+
+header.row div.col-6.row{
+    justify-content: center;
+}
+
+header.row div.row  div.center img{
+    margin: 35%;
+}
+
+header div.col{
+    padding: 0;
+}
+
+header div.col ul.row{
+    list-style-type: none;
+}
+
+header div.col ul.row a{
+    text-decoration: none;
+    color: white;
+    margin-top: 10.5%;
+
+}
+
+/* +++++++++++++++ main ++++++++++++++++++ */
+/* ---------------1er section --------- */
+.sect1{
+    background-color: #f1c530;
+    padding:15% 5%;
+    color: white;
+}
+/* ---------------2eme section --------- */
+.sect2{
+    background-color:#b11313;
+    padding:10% 5%;
+    color: white;
+}
+
+
+
+.sect2 div.col-4{
+    text-align: center;
+    margin: -1% 0% 4% 13%;
+}
+
+.sect2 div.col-4 input{
+    background-color: #b11313;
+    border-radius: 25px;
+    color: white;
+    margin: 3% 3% 5% 0%;
+
+}
+.sect2 div.col-4 input.grand{
+    padding: 2% 1% 19% 2%;
+}
+
+button.envoyer {
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    border-radius: 15px;
+    padding: 4% 16%;
+    margin: 15% 0px -44px 4px;
+}
+
+/* ---------------3eme section --------- */
+.sect3{
+   background-color: #114c92;
+   color: white;
+   padding:5% 10%; 
+}
+
+.sect3 .text{
+    text-align: justify;
+}
+.sect3 .nav{
+    text-align: center;
+}
+.sect3 a {
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    border-radius: 20px;
+    padding: 4% 14% 4% 14%;
+}
+
+/* +++++++++++++++ footer ++++++++++++++++++ */
+footer{
+    background-color: black;
+    padding: 0;
+}
+
+footer .ligne1 {
+   padding:  3%;
+}
+
+footer div.col-1{
+    padding: 0;
+}
+
+.colleft, .colright{
+    padding-top: 1.5%;
+}
+
+footer div.col-1 img.center{
+    width: 50%;
+    margin: 25%;
+}
+
+footer div.row.col {
+    justify-content: center;
+    width: 15%;
+    margin: 0% -3% 0% -15%;
+}
+
+footer.row li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+select{
+    background-color: #b11313;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    padding: 1%;
+}
+
+option{
+    background-color: black;
+}
+
+div.lign2 .fig {
+    width: 226px;
+    margin: 1% auto;
+    justify-content: space-around;
+}
+
+div.lign2 .fig img{
+    padding: 40%;
+}
+
+div.lign2 .text{
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+}
+
+footer.row .lign2 div.row.fig div.col-1 img{
+    background-color:red;
+    border-radius:100%;
+}
+
+/* ++++++++++ responsive +++++++++++ */
+
+@media screen and (max-width:786px){
+    header.row div.col{
+        display: none;
+    }
+
+    header.row div.col-6.row{
+        width: 150%;
+        margin-left: -30%;
+    }
+    .sect2{
+        background-color: black;
+    }
+}

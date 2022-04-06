@@ -2,6 +2,29 @@ body{
     margin: 0;
     padding: 0;
 }
+@font-face{
+    font-family: 'font-fam';
+    src: url("/Assets/Far-From\ Homecoming\ Updated.otf");
+}
+
+h1{
+    font-family: 'font-fam';
+    font-size: 150px;
+}
+
+h2.avecstyle{
+    font-family: 'font-fam';
+    font-size: 50px;
+}
+
+h2.avecstyle2{
+    font-family: 'font-fam';
+    font-size: 30px;
+}
+
+h2.simple{
+    font-size: 47px;
+}
 
 /*++++++++++++++++++++++ header +++++++++++++++++++++*/
 
@@ -48,28 +71,23 @@ header div.col ul.row a{
 
 
 /*------------- 2m section ---------*/
-#sect2{
+.sect2{
     background-color: #114C92;
     color: white;
     padding: 7%;
-
 }
 
-#sect2 .contenu {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 4%;
+.sect2 div.col{
+    margin: 0 1%;
 }
 
-#sect2 .text {
-    width: 25%;
+.sect2 p{
     text-align: justify;
-    padding: 2%;
 }
 
 
 /*------------- 3m section ---------*/
-#sect3 {
+.sect3 {
     background-image: url(/Assets/Illustration/img20.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -103,9 +121,15 @@ header div.col ul.row a{
     justify-content: center;
 }
 
-#sect4 .fig-text .figure{
-    
+#sect4 .fig-text .figure {
+    position: relative;
+    left: 7%;
 }
+
+#sect4 .titre  {
+    margin-left: 18.5%;
+}
+
 #sect4 .fig-text .figure .img2{
     margin-top: -15%;
     margin-left: 30%;
@@ -148,79 +172,73 @@ header div.col ul.row a{
 }
 
 /*------------- 5m section ---------*/
-#sect5{
+.sect5{
     background-color: #B11313;
     color: white;
     display: flex;
+    
 }
 
-#sect5 div.colonne1{
-   
-    width: 50%;
+.sect5 div.col-4.text {
+    margin: 0px;
+    padding: 2% 2.5% 0 0;
+    
 }
 
-#sect5 .figblock-text{
-    display: flex;
-    width: 80%;
+.sect5 div.col-4 {
+    margin: 0px;
+    padding: 0;
+    
 }
 
-#sect5 .figblock{
-    display: block;
-    width: 32%;
-}
-#sect5 .figblock img{
-    margin: 4%;
-}
-
-#sect5 .text {
-    width: 25%;
+p{
+    
     text-align: justify;
-    padding: 2%;
 }
 
-#sect5 .fig4 img{
-    width: 20%;
-    padding: 2%;
+section.sect5 .partiegauche{
+    margin: 5% -15% 0% 15%  ;
 }
 
-#sect5 .colonne2{
-    width: 10;
+section.sect5 .partiegauche img.row{
+    margin: 0;
 }
+
+section.sect5 .partiegauche img{
+    padding: 7%;
+}
+
 
 
 /*------------- 6m section ---------*/
-#sect6{
+.sect6{
     background-image: url(/Assets/Illustration/img33.png);
     color: white;
     background-repeat: no-repeat;
     background-size: 100%;
-    margin: 0px;
-    padding: 0px;
+    
 }
 
-#sect6 div{
-    background-color: #114C92;
-    width: 20%;
-    padding: 2%;
-    margin-left: 65%;
+.sect6 div.col-4 {
+    background-color: #113e74;
+    opacity: 0.8;
+    margin-left: 54%;
+    padding: 4% 2% 9% 2%;
 }
 
-
-#sect6 div p{
+.sect6 div p{
     text-align: justify;
 }
 
 
-
+/* +++++++++++++++ footer ++++++++++++++++++ */
 footer{
     background-color: black;
     padding: 0;
-   
 }
 
 footer .ligne1 {
    padding:  3%;
-    
 }
 
 footer div.col-1{
@@ -240,28 +258,25 @@ footer div.row.col {
     justify-content: center;
     width: 15%;
     margin: 0% -3% 0% -15%;
-   
 }
 
 footer.row li a{
     text-decoration: none;
     color: white;
     text-align: center;
-    
 }
 
 select{
-    background-color: #b11313;
+    background-color: #114C92;
     border-radius: 15px;
     color: white;
     border: none;
     padding: 1%;
 }
+
 option{
     background-color: black;
 }
-
-
 
 div.lign2 .fig {
     width: 226px;
@@ -277,4 +292,9 @@ div.lign2 .text{
     text-align: center;
     color: white;
     margin: 0 auto;
+}
+
+footer.row .lign2 div.row.fig div.col-1 img{
+    background-color:#114C92;
+    border-radius:100%;
 }

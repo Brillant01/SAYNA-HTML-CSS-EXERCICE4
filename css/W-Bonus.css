@@ -2,6 +2,12 @@ body{
     margin: 0;
     padding: 0;
 }
+
+@font-face{
+    font-family: 'font-fam';
+    src: url("/Assets/Far-From\ Homecoming\ Updated.otf");
+}
+
 /* +++++++++++++header+++++++++++++++++++ */
 header{
     background-color: #b11313 ;
@@ -39,19 +45,25 @@ section.sect1{
     background-size: 100%;
     background-repeat: no-repeat;
     color:white;
-    padding:25%;
+    padding: 40% 0% 1% 12%;
+}
+h1{
+    font-family: 'font-fam';
+    font-size: 150px;
+}
+
+h3{
+    margin: 4% 0;
 }
 
 /* +++++++++++++++ footer ++++++++++++++++++ */
 footer{
     background-color: black;
     padding: 0;
-   
 }
 
 footer .ligne1 {
    padding:  3%;
-    
 }
 
 footer div.col-1{
@@ -71,14 +83,12 @@ footer div.row.col {
     justify-content: center;
     width: 15%;
     margin: 0% -3% 0% -15%;
-   
 }
 
 footer.row li a{
     text-decoration: none;
     color: white;
     text-align: center;
-    
 }
 
 select{
@@ -88,11 +98,10 @@ select{
     border: none;
     padding: 1%;
 }
+
 option{
     background-color: black;
 }
-
-
 
 div.lign2 .fig {
     width: 226px;
@@ -108,4 +117,9 @@ div.lign2 .text{
     text-align: center;
     color: white;
     margin: 0 auto;
+}
+
+footer.row .lign2 div.row.fig div.col-1 img{
+    background-color:red;
+    border-radius:100%;
 }

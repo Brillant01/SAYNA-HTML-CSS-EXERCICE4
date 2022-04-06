@@ -33,7 +33,7 @@ header div.col ul.row a{
 
 /* -----------------------Main------------------ */
 /*--------------------- 1er section --------------------*/
- section.sct1{
+ section.sect1{
     background-image: url(/Assets/Illustration/img1.png);
     color: white;
     background-repeat: no-repeat;
@@ -41,17 +41,17 @@ header div.col ul.row a{
 }
 
 div.contenu{
-    padding: 19% 0% 15% 14%;
+    padding: 19% 0% 29% 14%;
 }
 
 /*--------------------- 2em section --------------------*/
 .sect2{
-    background-color: #8f0f0f;
+    background-color: #b01313;
     padding: 5%;
     color: white;
 }
 
-.sect2 div.row{
+.sect2 div.row.ligne2{
     justify-content: space-around;
     width: 80%;
     margin: 0 auto;
@@ -62,8 +62,11 @@ div.contenu{
     text-align: center;
     
 }
+.sect2 div.ligne1{
+    margin: -1% 0% 1% 12.8%;
+}
 
-.sect2 p {
+.sect2 div.ligne2 p {
     margin-top: 10%;
     margin-bottom: 1rem;
     text-align: justify;
@@ -108,12 +111,10 @@ button.row.btn{
 footer{
     background-color: black;
     padding: 0;
-   
 }
 
 footer .ligne1 {
    padding:  3%;
-    
 }
 
 footer div.col-1{
@@ -133,14 +134,12 @@ footer div.row.col {
     justify-content: center;
     width: 15%;
     margin: 0% -3% 0% -15%;
-   
 }
 
 footer.row li a{
     text-decoration: none;
     color: white;
     text-align: center;
-    
 }
 
 select{
@@ -150,11 +149,10 @@ select{
     border: none;
     padding: 1%;
 }
+
 option{
     background-color: black;
 }
-
-
 
 div.lign2 .fig {
     width: 226px;
@@ -170,4 +168,9 @@ div.lign2 .text{
     text-align: center;
     color: white;
     margin: 0 auto;
+}
+
+footer.row .lign2 div.row.fig div.col-1 img{
+    background-color:red;
+    border-radius:100%;
 }
