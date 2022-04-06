@@ -167,7 +167,7 @@ footer.row .lign2 div.row.fig div.col-1 img{
 
 /* ++++++++++ responsive +++++++++++ */
 
-@media screen and (max-width:786px){
+/* @media screen and (max-width:786px){
     header.row div.col{
         display: none;
     }
@@ -179,4 +179,4 @@ footer.row .lign2 div.row.fig div.col-1 img{
     .sect2{
         background-color: black;
     }
-}
+} */

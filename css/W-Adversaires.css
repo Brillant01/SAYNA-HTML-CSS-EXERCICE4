@@ -3,6 +3,22 @@ body{
     padding: 0;
 }
 
+@font-face{
+    font-family: 'font-fam';
+    src: url("/Assets/Far-From\ Homecoming\ Updated.otf");
+}
+
+h1{
+    font-family: 'font-fam';
+    font-size: 150px;
+}
+
+
+
+h2.simple{
+    font-size: 47px;
+}
+
 /* +++++++++++++header+++++++++++++++++++ */
 header{
     background-color: #b11313 ;
@@ -38,7 +54,7 @@ header div.col ul.row a{
 /* ------------ 1er section ------------------ */
 .sect1{
     background-image: url(../Assets/Illustration/img7.png);
-    padding: 18%;
+    padding: 17%;
     background-size: 100%;
     background-repeat: no-repeat;
     color: white;
